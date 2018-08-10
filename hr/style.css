@@ -1,0 +1,25 @@
+.input-form {
+    width: 90%;
+    margin: 0 auto;
+}
+.url-input {
+    width: 100%;
+}
+.btn-form {
+    margin: 10px 0;
+}
+.result {
+    width: 90%;
+    margin: 0 auto;
+}
+.result th {
+    border: solid 1px #000000;
+    background-color: #A2C4C9;
+}
+.result td {
+    border: solid 1px #000000;
+    padding: 0 5px;
+}
+.status {
+    background-color: #E06666;
+}
