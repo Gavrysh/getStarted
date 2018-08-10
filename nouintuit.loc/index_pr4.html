@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css/style_pr4.css" type="text/css" rel="stylesheet">
+<script src="js/pr4.js" type="text/javascript"></script>
+<title>Практична робота №4</title>
+</head>
+<body>
+	<div id="source" class="conteiner" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)">
+		<div id="firstDragElement" class="element" ondragstart="return dragStart(event)" ondragend="return dragEnd(event)" draggable="true">Text 1</div>
+		<div id="secondDragElement" class="element" ondragstart="return dragStart(event)" ondragend="return dragEnd(event)" draggable="true">Text 2</div>
+		<div id="thirdDragElement" class="element" ondragstart="return dragStart(event)" ondragend="return dragEnd(event)" draggable="true">Text 3</div>
+	</div>
+	<div id="target" class="conteiner" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+</body>
+</html>

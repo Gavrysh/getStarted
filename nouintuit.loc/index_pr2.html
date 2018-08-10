@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css/style_pr2.css" type="text/css" rel="stylesheet">
+<title>Практична робота №2</title>
+</head>
+<body>
+	<div id="wrapper">
+		<form id="registration">
+			<fieldset>
+				<legend>Форма регистрации</legend>
+					<p><label for="fio">ФИО</label></p>
+					<p><input class="input" id="fio" name="fio" type="text" required></p>
+					<p><label for="email">E-mail</label></p>
+					<p><input class="input" id="email" name="email" type="email" required></p>
+					<p><label for="phone">Номер телефона</label></p>
+					<p><input class="input" id="phone" name="phone" type="tel" required pattern=" [(]\d{3,4}[)]\s\d{2,3}[-]\d{2}[-]\d{2}"></p>
+					<p><label for="city">Город</label></p>
+					<p><input class="input" id="city" name="city" type="text"></p>
+					<p><label for="dateofbirth">Дата рождения</label></p>
+					<p><input class="input" id="dateofbirth" name="dateofbirth" type="date"></p>
+			</fieldset>
+			<fieldset>
+				<legend>Параметры доставки</legend>
+					<p><label for="address">Адрес</label></p>
+					<p><textarea class="input" id="address" name="address" rows="5"></textarea></p>
+					<p><label for="postcode">Почтовый индекс</label></p>
+					<p><input class="input" id="postcode" name="postcode" type="text"></p>
+			</fieldset>
+			<fieldset>
+				<legend>Предпочитаемый способ получения уведомлений</legend>
+					<p><input class="input" id="emailmessage" name="message" type="radio"><label for="emailmessage">По Email</label></p>
+					<p><input class="input" id="phonemessage" name="message" type="radio"><label for="phonemessage">По телефону</label></p>
+					<p><input class="input" id="nomessage" name="message" type="radio"><label for="nomessage">Не уведомлять меня</label></p>
+			</fieldset>
+			<fieldset>
+				<p><button type="submit">Отправить данные</button></p>
+			</fieldset>
+		</form>
+	</div>
+
+
+</body>
+</html>

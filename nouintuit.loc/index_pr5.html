@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css/style_pr5.css" type="text/css" rel="stylesheet">
+<script src="js/pr5.js" type="text/javascript"></script>
+<title>Практична робота №5</title>
+</head>
+<body onload="load();">
+    <div id="header">
+		<h1>Audio example</h1>
+    </div>
+	
+	<div id="albums">
+		<form id="albumform">
+			<fieldset>
+				<legend class="singer">Скрябін</legend>
+				<ul class="albumname">
+					<li><a class="albumlink" onclick="loadAlbum('scrjabin_25_pr5.html');">Скрябін - 25</a></li>
+					<li><a class="albumlink" onclick="loadAlbum('RC_smile.html');">Have A Smile With Me</a></li>
+				</ul>
+			</fieldset>
+		</form>
+    </div>
+	<div id="tracks">
+		<iframe id="target" src=""></iframe>      
+    </div>
+</body>
+</html>
