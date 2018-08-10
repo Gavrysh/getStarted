@@ -1,0 +1,571 @@
+@charset "utf-8";
+@import url(reset.css);
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+.clear {
+    clear: both;
+}
+
+.wrapper {
+/*    min-width: 1024px; */
+    width: 1920px;
+    height: 5745px;
+    margin: 0 auto;
+    font-family: Calibri;
+    color: #ffffff;
+}
+
+.header {
+    height: 923px;
+    background: url(../img/header_bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.header a {
+    color: rgb(255,255,255);
+}
+
+.header .logo {
+    width: 186px;
+    height: 76px;
+    float: left;
+    background: url(../img/Logo.png);
+    background-size: cover;
+    margin: 77px 0 0 400px;
+}
+
+.nav {
+    display: inline-block;
+    list-style-type: none;
+    margin: 51px 0 0 101px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 38px;
+}
+
+.nav a:hover {
+    color: rgb(240,240,240);
+}
+
+.header-btn {
+    text-decoration: none;
+    padding: 5px 15px;
+    border: 2px solid rgb(240,240,240);
+    border-radius: 10px;
+}
+
+.question {
+    font-size: 13px;
+    margin-left: 150px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.header-btn:hover {
+    color: rgb(240,240,240);
+    border: 3px solid rgb(240,240,240);
+}
+
+.contacts {
+    display: block;
+    float: right;
+    font-size: 18px;
+    margin-right: 68px;
+    margin-top: 35px;
+}
+
+.contacts-phone {
+    letter-spacing: 1.8px;
+}
+.contacts-phone-tel {
+    font-size: 25px;
+}
+
+.header h2,
+.header h4 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.header h2 {
+    font-size: 65px;
+    text-transform: capitalize;
+    margin: 241px 0 0;
+}
+
+.header h4 {
+    font-size: 37px;
+    margin: 36px 0 73px;
+}
+
+.header p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.consultation {
+    font-size: 23px;
+}
+
+.content {
+    height: 4468px;
+}
+
+.content-part01 {
+    height: 1394px;
+    background-color: rgb(239,240,241);
+}
+
+.content-part01 p {
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+    padding-top: 69px;
+}
+
+.content-part01 span {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../img/compass01.png);
+    margin-bottom: -25px;
+    margin: 0 10px -25px;
+}
+.content-part01 .content-part01-text {
+    color: #666666;
+    font: 300 35px Calibri;
+    text-align: center;
+    padding: 50px 0 70px;
+}
+
+.content-part01-images {
+    width: 1147px;
+    margin: 0 auto;
+}
+
+.content-part01-images .img01,
+.content-part01-images .img02,
+.content-part01-images .img03,
+.content-part01-images .img04 {
+    width: 556px;
+    height: 397px;
+    background-size: contain;
+    float: left;
+    background: url(../img/placeholder.jpg) center;
+    color: black;
+}
+
+.content-part01-images .img01,
+.content-part01-images .img02 {
+    margin-bottom: 35px;
+}
+
+.content-part01-images .img01,
+.content-part01-images .img03 {
+    margin-right: 35px;
+}
+
+.img01 h2,
+.img02 h2,
+.img03 h2,
+.img04 h2 {
+    font: 300 35px Calibri;
+    margin-left: 50px;
+    margin-top: 190px;
+    margin-bottom: 9px;
+}
+
+.img01 p,
+.img02 p,
+.img03 p,
+.img04 p {
+    font: 300 18px Calibri;
+    color: black;
+    text-align: left;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.img01 a,
+.img02 a,
+.img03 a,
+.img04 a {
+    display: inline-block;
+    font: 300 14px Calibri;
+    color: #f2f3f4;
+    margin-top: 63px;
+    margin-left: 50px;
+    color: black;
+}
+
+.img04 a {
+    margin-top: 31px;
+}
+
+.all-services {
+    border: 2px solid rgb(35,41,44);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 20px 15px;
+    color: #666666;
+    font: 300 18px Calibri;
+    text-align: center;
+}
+
+.all-services:hover {
+    color: rgb(35,41,44);
+    border: 3px solid rgb(35,41,44);
+}
+
+.content-part02 {
+    height: 830px;
+    background-color: rgb(231,233,236);
+    color: #666666;
+}
+
+.content-part02-info {
+    width: 1108px;
+    height: 830px;
+    float: left;
+}
+
+.content-part02-img01 {
+    width: 47px;
+    height: 48px;
+    margin-top: 53px;
+    margin-left: 535px;
+    background: url(../img/c-p02-img01.png);
+}
+
+.content-part02-info h2,
+.content-part02-info h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content-part02-info h2 {
+    font: 300 18px Calibri;
+    margin-top: 19px;
+    margin-bottom: 74px;
+}
+
+.content-part02-info h1 {
+    font: 300 35px Calibri;
+    margin-bottom: 35px;
+}
+
+.content-part02-info p {
+    text-align: center;
+}
+
+.info-services {
+    width: 522px;
+    margin: 60px auto;
+}
+
+.info-services01,
+.info-services02,
+.info-services03 {
+    width: 168px;
+    height: 150px;
+    border: 1px solid rgb(199,206,210);
+    float: left;
+}
+
+.info-services01,
+.info-services02 {
+    margin-right: 9px;
+}
+
+.is-img01,
+.is-img02,
+.is-img03 {
+    height: 49px;
+    width: 49px;
+    margin: 0 auto;
+    background-size: contain;
+    margin-top: 31px;
+}
+
+.is-img01 {
+    background: url(../img/anchor.png) no-repeat center;
+}
+
+.is-img02 {
+    background: url(../img/clock.png) no-repeat center;
+    margin-bottom: 10px;
+}
+
+.is-img03 {
+    background: url(../img/horse.png) no-repeat center;
+    margin-bottom: 10px;
+}
+
+.content-part02-img02 {
+    float: right;
+    width: 811px;
+    height: 830px;
+    background: url(../img/c-p02-img00.jpg);
+}
+
+.content-part03 {
+    height: 2244px;
+    color: #666666;
+    background: rgb(242,243,245) url(../img/that-moment-.jpg) no-repeat center bottom;
+    background-size: contain;
+}
+
+.cp03t-foto {
+    margin-top: 130px;
+}
+
+.cp03t-text {
+    margin-top: 150px;
+}
+
+.cp03t-foto {
+    float: left;
+    width: 787px;
+    height: 559px;
+    background: url(../img/foto.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.cp03t-text {
+    float: right;
+    width: 949px;
+}
+
+.cp03t-text h4 {
+    font: 300 35px Calibri;
+    margin-bottom: 29px;
+}
+
+.cp03t-text p {
+    font: 300 18px Calibri;
+    margin-bottom: 19px;
+    width: 700px;
+}
+
+.cp03t-text span {
+    display: inline-block;
+    width: 180px;
+    height: 90px;
+    background: url(../img/autograph.png) center no-repeat;
+    background-size: cover;
+}
+
+.content-part03-faq {
+    text-transform: uppercase;
+    font: 300 24px Calibri;
+    margin: 72px 0 65px;
+}
+
+.content-part03-incut01 p {
+    font: 300 24px Calibri;
+    text-align: center;
+}
+
+.content-part03-faq-img {
+    width: 75px;
+    height: 55px;
+    display: inline-block;
+    margin: 0 10px -19px;
+    background: url(../img/faq.png);    
+}
+
+.content-part03-incut02 {
+    width: 1140px;
+    margin: 95px auto 0;
+}
+
+.content-part03-incut02 a {
+    font: 300 18px Calibri;
+    color: #666666;
+    text-decoration: none;
+    border: 2px solid rgb(66,71,73);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content-part03-incut02 a:hover {
+    border: 3px solid rgb(66,71,73);
+    font-weight: 400;
+}
+
+.content-part03-incut02 p {
+    text-align: center;
+}
+
+.content-part03-incut02-img03,
+.content-part03-incut02-img04 {
+    width: 555px;
+    height: 365px;
+    float: left;
+    background-size: cover;
+    margin-bottom: 64px;
+}
+
+.content-part03-incut02-img03 {
+    background: url(../img/placeholder.jpg);
+    margin-right: 30px;
+}
+
+.content-part03-incut02-img04 {
+    background: url(../img/placeholder.jpg);
+}
+
+.content-part03-incut03 p {
+    text-align: center;
+}
+
+.content-part03-incut03 .first {
+    color: #343434;
+    font: 300 45px Calibri;
+    margin: 30px 0 10px;
+}
+
+.content-part03-incut03 .second {
+    color: #666666;
+    font: 300 28px Calibri;
+    margin-bottom: 9px;
+}
+
+.content-part03-incut03 a {
+    display: inline-block;
+    font: 300 18px Calibri;
+    color: #666666;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content-part03-incut03 .link-one {
+    margin-right: 20px;
+    border: 2px solid rgb(66,71,73);
+}
+
+/*.content-part03-incut03 a:hover {
+    border: 3px solid rgb(66,71,73);
+    font-weight: 400;
+}*/
+
+.footer {
+    height: 354px;
+    background-color: rgb(31,37,41);
+}
+
+.footer ul {
+    list-style-type: none;
+    color: #f2f3f4;
+    font: 300 18px Calibri;
+    display: inline-block;
+}
+
+.footer-first-col {
+    width: 343px;
+    height: 100%;
+    float: left;
+}
+
+.footer-logo {
+    width: 186px;
+    height: 76px;
+    background: url(../img/Logo.png) no-repeat center;
+    background-size: cover;
+    margin: 86px 0 44px 157px;
+}
+
+.first-col-about {
+    margin-left: 132px;
+}
+
+.footer-second-col {
+    float: left;
+    width: 355px;
+    height: 100%;    
+}
+
+.second-col-block01 {
+    margin: 86px 0 0 43px;;
+}
+
+.second-col-block02 {
+    margin: 31px 0 0 43px;;
+}
+
+.footer-third-col {
+    float: left;
+    width: 261px;
+    height: 100%;
+}
+
+.third-col-block01 {
+    margin: 86px 0 0;
+}
+
+.third-col-block02 {
+    margin: 52px 0 0;
+}
+
+.footer-fourth-col {
+    float: left;
+    width: 319px;
+    height: 100%;
+}
+
+.fourth-col-block01 {
+    margin: 86px 0 0;
+}
+
+.footer-contacts-col {
+    float: right;
+    width: 447px;
+    height: 100%;
+}
+
+.footer-contacts-col p {
+    margin-left: 25px;
+}
+
+.footer-contacts {
+    margin: 60px 0 44px;
+}
+
+.footer-contacts-col .footer-contacts span {
+    color: #ffffff;
+    font: 400 23px Calibri;
+}
+
+.fa {
+    border: 3px solid rgb(255,255,255);
+    border-radius: 50%;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.footer a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: rgb(240,240,240);
+}
