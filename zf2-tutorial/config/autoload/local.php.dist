@@ -1,0 +1,7 @@
+<?php
+return array(
+    'db' => array(
+        'username' => 'SeGa',
+        'password' => 'bdoZY3',
+    ),
+);

@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'C-Book Bold';
+    src: url(../fonts/lineto-circular-pro-bold.ttf);
+}
+body {
+    background-color: #F7F7F7;
+    font: 16px 'C-Book Bold' Arial, sans-serif;
+}
+a {
+    color: #000000;
+}
+.wrapper {
+    height: 897px;
+}
+.leftSide,
+.rightSide {
+    height: 100%;
+}
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 270px;
+}
+.leftSide a {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.footer {
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+}
+.rightSide {
+    border-left: 1px solid #EAEAEA;
+}
+.rightSide h1 {
+    margin: 270px 0 0 45px;
+    font-size: 64px;
+}
+h1 span {
+    color: #F7C68A;
+}
+.textContent {
+    position: relative;
+    width: 230px;
+    border-top: 1px solid #EAEAEA;
+    margin: 35px 15px 0 0;
+    padding: 34px 27px 0 35px;
+}
+.textContent span {
+    display: block;
+    position: absolute;
+    top: 34px;
+    left: 0;
+}
+.one {
+    margin-left: 45px;
+}

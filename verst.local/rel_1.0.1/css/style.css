@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* скидання стилів браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.2; }
+
+ol {
+  padding-left: 1.4em;
+  list-style: decimal; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+/* кінець коду по скиданню стилей браузерів */
+@font-face {
+    font-family: 'Circular Book';
+    src: url(../fonts/lineto-circular-pro-book.ttf);
+}
+@font-face {
+    font-family: 'Circular Book Bold';
+    src: url(../fonts/lineto-circular-pro-bold.ttf);
+}
+html,
+body {
+    height: 100%;
+    width: 98%;
+    margin: 0 auto;
+    background-color: rgb(247,247,247);
+}
+.clear {
+  clear: both; 
+}
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    font-family: 'Circular Book', Arial, sans-serif;
+    font-size: 62.5%;
+    color: rgb(0,0,0);
+}
+.leftSide {
+    min-width: 20%;
+    height: 100%;
+    float: left;
+}
+.leftSide ul {
+    margin-top: 20em;
+}
+.leftSide a {
+    display: inline-block;
+    margin: .5em 0;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font: 1.5em 'Circular Book Bold', Arial, sans-serif;
+}
+.navigation {
+    list-style-type: none;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font: 1.3em 'Circular Book Bold', Arial, sans-serif;
+}
+.copyright {
+    min-width: 20%;
+    float: left;
+    padding-bottom: 2em;
+}
+.rightSide {
+    min-width: 80%;
+    float: left;
+    border-left: .1em solid rgb(234,234,234);
+}
+.rightSide h1 {
+    font: 6em 'Circular Book Bold', Arial, sans-serif;
+    margin: 3.1em 0 0 1em;
+}
+.rightSide h1 span {
+    color: rgb(247,198,138);
+}
+.right-content {
+    position: relative;
+    width: 14em;
+    float: left;
+    font: 1.5em 'Circular Book Bold', Arial, sans-serif;
+    margin: 1em 0 0 1em;
+    border-top: .1em solid rgb(234,234,234);
+    padding: 1em 0 0 2em;
+}
+.first {
+    margin-left: 4em;
+}
+.right-content span {
+    position: absolute;
+    top: 1em;
+    left: 0;
+}
