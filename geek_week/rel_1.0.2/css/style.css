@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    width: 1280px;
+    height: 1208px;
+}
+
+.header {
+    height: 323px;
+    background-color: rgb(67,80,97);
+}
+
+.content {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.header-content-left {
+    float: left;
+    width: 469px;
+}
+
+.header-content-left h2 {
+    color: #ffffff;
+    font: 300 44px Arial;
+    padding-top: 50px;
+    padding-bottom: 51px;
+}
+
+.header-content-left ul {
+    color: #ffffff;
+    font: 300 16px Arial;
+    line-height: 24px;
+    padding-left: 30px;
+    list-style: url(../images/check-icon.png);
+}
+
+.header-content-right {
+    float: right;
+    width: 469px;
+    height: 214px;
+    background: url(../images/new-product.jpg) no-repeat center #fff;
+    background-size: contain;
+    margin-top: 50px;
+}
+
+.about {
+    height: 344px;
+}
+
+.about-content-left {
+    float: left;
+    width: 653px;
+    color: #445161;
+}
+
+.about-content-left h4 {
+    padding-top: 49px;
+    padding-bottom: 30px;
+    color: #445161;
+    font: 400 30px / 36px Arial;
+}
+
+.about-content-left p {
+    color: #333333;
+    font: 400 16px / 24px Arial;
+    padding-bottom: 20px;
+}
+
+.about-content-right {
+    float: right;
+    width: 430px;
+    height: 245px;
+    margin-top: 50px;
+    background: url(../images/about-product.jpg) no-repeat center #445161;
+    background-size: cover;
+}
+
+.contacts {
+    height: 509px;
+    background-color: rgb(67,80,97);
+}
+
+.contacts form {
+    float: left;
+}
+
+.contacts h4 {
+    color: #ffffff;
+    font: 400 22px Arial;
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 31px;
+}
+
+input[type=text],
+input[type=message] {
+    width: 470px;
+    height: 40px;
+    border-radius: 5px;
+    font: 400 16px Arial;
+    padding: 0 15px;
+    margin-bottom: 21px;
+    margin-left: 249px;
+}
+
+.contacts textarea {
+    width: 470px;
+    margin-left: 249px;
+    padding: 0 15px;
+    border-radius: 5px;
+    font: 400 16px Arial;
+}
+
+input[type=text]:focus,
+input[type=message]:focus,
+.contacts textarea:focus {
+    background-color: rgb(255,240,255);
+}
+
+input[type="button"] {
+    margin-left: 429px;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    color: #445162;
+    font: 700 12px Arial;
+    margin-top: 6px;
+}
+
+input[type="button"]:hover,
+.twit:hover,
+.fb:hover,
+.in:hover,
+.google:hover,
+.youtube:hover {
+    cursor: pointer;
+    background-color: rgb(255,240,255);
+    color: rgb(67,20,97);
+    transform: scale(1.1);
+}
+
+.contacts-detail {
+    float: left;
+}
+
+.contacts-detail ul {
+    color: #ffffff;
+    font: 400 16px Arial;
+    line-height: 45px;
+    list-style: none;
+    margin-left: 70px;
+}
+
+.contacts-detail ul .skype {
+    list-style: url(../images/skype-icon.png);
+}
+
+.contacts-detail ul .isq {
+    list-style: url(../images/icq-icon.png);
+}
+
+.contacts-detail ul .email {
+    list-style: url(../images/email-icon.png);
+}
+
+.contacts-detail ul .phone {
+    list-style: url(../images/phone-icon.png);
+}
+
+.contacts-detail ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.twit,
+.fb,
+.in,
+.google,
+.youtube {
+    background-color: #ffffff;
+    float: left;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 37px;
+    color: rgb(67,80,97);
+    text-align: center;
+    line-height: 42px;
+}
+
+.twit {
+    margin-left: 45px;
+}
+
+.contacts-detail ul .skype:hover,
+.contacts-detail ul .isq:hover,
+.contacts-detail ul .email:hover,
+.contacts-detail ul .phone:hover {
+    transform: scale(1.1);
+}
+
+.footer h6 {
+    color: #445162;
+    font: 400 12px Arial;
+    text-align: center;
+    padding-top: 11px;
+}
