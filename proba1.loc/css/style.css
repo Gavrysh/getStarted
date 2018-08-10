@@ -1,0 +1,59 @@
+#wrapper {
+	outline: 1px solid #808080;
+	width: 800px;
+	margin: 10px auto;
+}
+
+#header {
+		outline: 1px solid #00FFA9;
+		margin-bottom: 10px;
+}
+
+#sidebarL {
+	outline: 1px solid #FFDD00;
+	width: 150px;
+	height: 40px;
+	float: left;
+}
+
+#content {
+		outline: 1px solid #FF00AE;
+		width: 640px;
+		margin-left: 160px;
+}
+
+#footer {
+	outline: 1px solid #00FFA9;
+	margin: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+p.content {
+	text-align: justify;
+	text-indent: 20px;
+	padding: 0 10px;
+	margin: 0;
+}
+
+p.contentNote {
+	font: italic 12pt serif;
+	text-align: justify;
+	text-indent: 20px;
+	padding: 0 10px;
+	margin: 0;
+}
+
+p.footer {
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	text-indent: 0;
+}
