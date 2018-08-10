@@ -1,0 +1,430 @@
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+audio, canvas, video {
+    display: inline-block;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden] {
+    display: none;
+}
+html {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active, a:hover {
+    outline: 0 none;
+}
+h1 {
+    font-size: 2em;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b, strong {
+    font-weight: bold;
+}
+dfn {
+    font-style: italic;
+}
+mark {
+    background: #ff0 none repeat scroll 0 0;
+    color: #000;
+}
+code, kbd, pre, samp {
+    font-family: monospace,serif;
+    font-size: 1em;
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+q {
+    quotes: "“" "”" "‘" "’";
+}
+small {
+    font-size: 80%;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+img {
+    border: 0 none;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+figure {
+    margin: 0;
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+legend {
+    border: 0 none;
+    padding: 0;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+button, input {
+    line-height: normal;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button[disabled], input[disabled] {
+    cursor: default;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type="search"] {
+    box-sizing: content-box;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ul, ol {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+body, input, textarea, button {
+}
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Futura Book";
+    src: url("/assets/fonts/futurabook.woff") format("woff");
+}
+body {
+    background: #ebe4d0 url("../images/bg.jpg") repeat scroll 50% 50%;
+    color: #ebe4d0;
+    font: 23px "Futura Book",Arial,sans-serif;
+    height: 100vh;
+}
+a {
+    color: #ebe4d0;
+}
+.main {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding-bottom: 166px;
+    position: relative;
+}
+@media only screen and (max-width: 560px) {
+.main {
+    padding-bottom: 0;
+}
+}
+.footer {
+    background: #ebe4d0 url("../images/bg_footer.jpg") repeat scroll 50% 0 / 1885px auto;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+@media only screen and (max-width: 560px) {
+.footer {
+    position: static;
+}
+}
+.info {
+    padding: 40px 24px 10px;
+}
+@media only screen and (max-width: 560px) {
+.info {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+}
+.phone {
+    background: rgba(0, 0, 0, 0) url("../images/phone.png") no-repeat scroll 0 0 / contain ;
+    cursor: default;
+    display: block;
+    float: right;
+    height: 22px;
+    position: relative;
+    text-indent: -1000em;
+    width: 212px;
+}
+@media only screen and (max-width: 560px) {
+.phone {
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    margin-bottom: 30px;
+    margin-left: 73px;
+}
+}
+.phone-icon {
+    background: rgba(0, 0, 0, 0) url("../images/i_phone.png") no-repeat scroll 0 0 / contain ;
+    height: 54px;
+    position: absolute;
+    right: 100%;
+    top: -23px;
+    width: 73px;
+}
+.del {
+    display: none;
+}
+@media only screen and (max-width: 560px) {
+.del {
+    display: block;
+}
+}
+.portfolio {
+    display: block;
+    height: 19px;
+    margin-left: 57px;
+    margin-top: 3px;
+    position: relative;
+    text-indent: -1000em;
+    width: 154px;
+}
+.portfolio::before, .portfolio::after {
+    background: rgba(0, 0, 0, 0) url("../images/portfolio.png") no-repeat scroll 0 0 / contain ;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.portfolio::after {
+    background-image: url("../images/portfolio_a.png");
+    opacity: 0;
+}
+.portfolio:hover::before {
+    opacity: 0;
+}
+.portfolio:hover::after {
+    opacity: 1;
+}
+@media only screen and (max-width: 560px) {
+.portfolio {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 61px;
+}
+}
+.portfolio-icon {
+    background: rgba(0, 0, 0, 0) url("../images/i_imac.png") no-repeat scroll 0 0 / contain ;
+    height: 61px;
+    position: absolute;
+    right: 100%;
+    top: -10px;
+    width: 61px;
+}
+.logo {
+    background: rgba(0, 0, 0, 0) url("../images/logo.jpg") repeat scroll 0 0 / cover ;
+    height: 0;
+    padding-bottom: 21.8441%;
+    text-indent: -1000em;
+}
+@media only screen and (max-width: 560px) {
+.logo {
+    display: none;
+}
+}
+.logo_mobile {
+    display: none;
+}
+@media only screen and (max-width: 560px) {
+.logo_mobile {
+    background-image: url("../images/logo_sm.jpg");
+    display: block;
+    padding-bottom: 20.7813%;
+}
+}
+.holder {
+    margin: auto;
+    max-width: 1000px;
+}
+.works {
+    margin: 30px 0;
+    padding: 0 10%;
+    word-spacing: -0.4em;
+}
+@media only screen and (max-width: 560px) {
+.works {
+    margin-bottom: -10px;
+}
+}
+.work {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 0.8em;
+    margin: 0 3%;
+    text-align: center;
+    vertical-align: top;
+    width: 28%;
+    word-spacing: 0;
+}
+.work:first-child {
+    margin-left: 0;
+}
+.work:last-child {
+    margin-right: 0;
+}
+@media only screen and (max-width: 560px) {
+.work {
+    display: block;
+    margin: 0 auto 40px !important;
+    max-width: 230px;
+    width: auto;
+}
+.work.work_web .work-icon {
+    padding-bottom: 50%;
+}
+}
+.work-in {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+}
+.work_web {
+    color: #579f62;
+}
+.work_app {
+    color: #ce6c45;
+}
+.work_des {
+    color: #855ba7;
+}
+.work-icon {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 10px 20px;
+    padding-bottom: 100%;
+}
+.work_web .work-icon {
+    background-image: url("../images/types/web.png");
+}
+.work_app .work-icon {
+    background-image: url("../images/types/app.png");
+}
+.work_des .work-icon {
+    background-image: url("../images/types/des.png");
+}
+.footer {
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.footer h2 {
+    font-size: 29px;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+.footer p {
+    margin: 0;
+}
+.footer a {
+    border-bottom: 1px solid rgba(235, 228, 208, 0.4);
+    text-decoration: none;
+}
+.footer a:hover {
+    border-bottom-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+}
+@media only screen and (min-width: 561px) {
+.footer .footer-phone {
+    border-bottom: 0 none;
+    cursor: text;
+}
+}
+.footer-main {
+    float: left;
+}
+@media only screen and (max-width: 560px) {
+.footer-main {
+    float: none;
+    margin: 0;
+}
+}
+.social {
+    float: right;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 560px) {
+.social {
+    float: none;
+    margin-top: 0;
+}
+}
+.social-item {
+    background-color: #ebe4d0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+    border-radius: 50%;
+    display: inline-block;
+    height: 37px;
+    margin-left: 10px;
+    width: 37px;
+}
+.social-item:hover {
+    background-color: #fff;
+}
+.social-item_fb {
+    background-image: url("../images/social/facebook.png");
+}
+.social-item_vk {
+    background-image: url("../images/social/vk.png");
+}
+.social-item_tw {
+    background-image: url("../images/social/twitter.png");
+}
+.footer-in {
+    margin: 0 10%;
+}
+@media only screen and (max-width: 560px) {
+.footer-in {
+    margin: 0 5%;
+    text-align: center;
+}
+.footer-in p {
+    margin: 0.5em 0;
+}
+}
+.footer-title {
+    font-size: 29px;
+    margin: 1em 0 0.5em;
+    text-transform: uppercase;
+}
