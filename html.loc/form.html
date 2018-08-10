@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css/style_form.css" type="text/css" rel="stylesheet">
+
+<title>Форми</title>
+</head>
+<body>
+
+<div id="wrapper">
+	<form action="formdata.php" method="POST" name="form1">
+		<fieldset>
+			<legend>Ввод персональних даних</legend>
+				<p class="question"><label for="you_name">Введіть Ваше ім'я (макс. 10 символів)</p>
+				<p><input class="input" type="text" name="you_name" id="you_name" size="40" maxlength="10"></label></p>
+				<p class="question"><label for="you_pass">Введіть пароль (макс. 16 символів)</label></p>
+				<p><input class="input" type="password" name="you_pass" id="you_pass" size="40" maxlength="16"></p>
+		</fieldset>
+
+		<fieldset>
+			<legend>Запитання</legend>
+				<p class="question">Вам подобається економити час?</p>
+				<p><label>Так<input type="radio" name="time" value="yes" checked></label><label>Ні<input type="radio" name="time" value="no"></label></p>
+				<p class="question">Якими інструментами Ви користуєтесь?</p>
+				<p>
+					<label><input type="checkbox" name="hron">Хронограф</label>
+					<label><input type="checkbox" name="shd">Щоденник</label>
+					<label><input type="checkbox" name="svm" checked>Свої Методи</label>
+				</p>
+				<p class="question"><label for="sleep">Скільки годин на добу ви спите?</label></p>
+				<p>
+					<select name="sleep" id="sleep">
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option selected>8</option>
+						<option>8 ++</option>
+					</select>
+				</p>
+		</fieldset>
+
+<p class="question tp"><label for="text">Поділіться своїми нароботками в економії часу:</label></p>	
+<p><textarea name="text" cols="60" rows="10" id="text">Тестовий текст...</textarea></p>
+
+<p><input type="image" src="images/blueButton.jpg" name="imageButton"></p>
+
+</form>
+</div>
+
+</body>
+</html>

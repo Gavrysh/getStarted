@@ -1,0 +1,86 @@
+body {
+	font: 12px Tahoma;
+	color: #808080;
+	padding:10px;
+	margin:0 auto;
+	width:1000px;
+	background-color: #ffffff;
+}
+
+p {
+	text-align:justify;
+	text-indent:30px;
+	line-height:1.5;
+	word-spacing:normal;
+	letter-spacing:normal;
+	}
+
+#header {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 40px 15px;
+	margin: 20px auto;
+	width: 600px;
+	height: 100px;
+	overflow: auto;
+	color: #ffffff;
+	background-color: #CC0100;
+	border: 4px solid #F0A82B;
+}
+
+h2 {
+	text-align:center;
+	text-transform:capitalize;
+}
+
+.new1 {
+	font-style: italic;
+}
+
+.new2 {
+	font-weight: bold;
+}
+
+.new3 {
+	text-decoration: line-through;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 2px dashed #79146C;
+}
+
+ul {
+	list-style: inside url(../images/arrow.png);
+}
+
+table, td, th {
+	border: 1px solid #111111;
+	text-align: center;
+} 
+
+td, th {
+	height: 40px;
+	padding: 5px;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+}
+
+table {
+	width: 700px;
+	border-collapse: collapse;
+	margin: 25px auto;
+}
+
+th {
+	background-image: url(../images/tablebg.jpg);
+}
+
+tr.blue td {
+	background-color: #B3FAFD;
+}
+
+#myImg {
+	float: right;
+}

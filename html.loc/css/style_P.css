@@ -1,0 +1,63 @@
+/*@import url("ps.css"); */
+
+body {
+	background-color: #D2D2D2;
+	font: 11px Verdana;
+	color: #696969;
+}
+
+#wrapper {
+	width: 650px;
+	margin: 30px auto;
+	background-color: #F4F4F4;
+}
+
+#header {
+	height: 75px;
+	background-color: #D00200;
+	background-image: url(../images/redHeader.png);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#content {
+	padding: 20px 30px;
+}
+
+#new {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#bird {
+	position: absolute;
+	top: -14px;
+	left: 262px;
+	z-index: 2;
+}
+
+#button {
+	position: absolute;
+	top: -14px;
+	left: 282px;
+	z-index: 1;
+}
+
+#operator {
+	position: fixed;
+	width: 22px;
+	height: 180px;
+	top: 250px;
+	left: 0;
+}
+
+#operator img {
+	border: none;
+}
+
+#test {
+	/*visibility: hidden; */
+	/* display: none; */
+	padding: inherit;
+}

@@ -1,0 +1,32 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #C3C3C3;
+	background-image: url(../images/pattern2.png);
+	background-repeat: repeat;
+}
+
+#main {
+	width: 801px;
+	height: 911px;
+	margin: 29px auto;
+	outline: 0px solid #FAA21A;
+	background-color: #FAFD86;
+	background-image: url(../images/bg_s.jpg);
+	background-repeat: repeat-x;
+}
+
+#main h1 {
+	text-align: center;
+	outline: 0px solid #800000;
+	padding-top: 182px;
+	font: 36px Verdana;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 140px 189px;
+}
+
+#wrapper {
+	outline: 0px solid #800000;
+	background: url(../images/tel.jpg) no-repeat fixed 0 120px;
+}
