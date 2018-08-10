@@ -1,0 +1,43 @@
+body
+  {margin:0px; background-color:white; font-family:arial; font-size:9pt}
+td
+  {font-family:arial; font-size:9pt}
+th
+  {font-family:arial; font-size:9pt; text-align:center;
+   background-color:seagreen; color:white}
+
+.head1
+  {font-family:times new roman; font-size:18pt; font-weight:bold; 
+   color:seagreen}
+.head2
+  {font-family:times new roman; font-size:16pt; font-weight:bold; 
+   color:seagreen}
+.head3
+  {font-family:times new roman; font-size:14pt; font-weight:bold; 
+   color:seagreen}
+.head4
+  {font-family:times new roman; font-size:12pt; font-weight:bold; 
+   color:seagreen}
+
+a:link, a:active, a:visited 
+  {text-decoration:none; color:seagreen}
+a:hover
+  {text-decoration:none; color:darkgreen; background-color:lightgreen}
+
+.buttonS
+  {width:35px; text-align:center; font-family:arial; font-size:9pt; 
+   background-color:seagreen; color:white}
+.buttonM
+  {width:70px; text-align:center; font-family:arial; font-size:9pt; 
+   background-color:seagreen; color:white}
+.buttonL
+  {width:100px; text-align:center; font-family:arial; font-size:9pt; 
+   background-color:seagreen; color:white}
+
+.textbox
+  {font-family:arial; font-size:10pt}
+.qtybox
+  {font-family:arial; font-size:10pt; text-align:right}
+
+.small
+  {font-family:arial; font-size:8pt}
