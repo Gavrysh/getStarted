@@ -1,0 +1,310 @@
+body {
+    color: rgb(255, 255, 255);
+    font: 400 14px Calibri;
+    letter-spacing: 0.025em;
+    text-align: center;
+}
+.header {
+    background: url(../img/header_bg.jpg) left top no-repeat;
+    background-size: cover;
+}
+.first {
+    width: 100%;
+    margin: 0 auto;
+}
+.logo-top {
+    position: absolute;
+    background: url(../img/Logo.png) center top no-repeat;
+    background-size: contain;
+    width: 12.91666666666667%;
+    height: 5em;
+    margin: 9em 0 0 5%;
+}
+.header a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.navigation {
+    font-size: 1.429em;
+    list-style-type: none;
+    margin-top: 2em;
+    text-align: right;
+}
+.navigation li {
+    display: inline;
+    padding-right: 3%;
+    white-space: nowrap;
+}
+.navigation :last-child {
+    padding-right: 0;
+}
+.header-question {
+    float: left;
+    font-size: 1.071em;
+    text-align: right;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 3em;
+    margin-left: 10%;
+}
+.header-question a {
+    text-transform: uppercase;
+    border: .1em solid rgb(255, 255, 255);
+    border-radius: .5em;
+    padding: .4em .7em;
+}
+.header-contacts {
+    float: left;
+    text-align: right;
+    padding: 0;
+    letter-spacing: 0.025em;
+    margin-top: 2.5em;
+    margin-left: 5%;
+}
+.header-phone-code {
+    font-size: 1.286em;
+}
+.header-phone-number {
+    font-size:  1.786em;
+}
+.header-adress {
+    font-size:  1.071em;    
+}
+/*
+.second {
+    text-align: center;
+}
+.header-consultation {
+    border: .1em solid rgb(255, 255, 255);
+    border-radius: .5em;
+    padding: .3em .5em;
+}
+.second .header-services {
+    display: inline-block;
+    text-decoration: underline;
+}
+.content {
+    height: 77.84140204754468%;
+}
+.footer {
+    height: 6.14263404476835%;
+}
+@media (min-width: 1441px) {
+    .logo-top {
+        margin: 17em 0 0 5%;
+        width: 13%;
+        height: 7em;
+    }
+    .navigation {
+        font: 400 2.4em Calibri;
+        text-align: right;
+        margin-top: 1em;
+    }
+    .header-question {
+        margin-top: 3.3em;
+    }
+    .header-question a {
+        font: 400 1.3em Calibri;
+    }
+    .header-contacts {
+        margin-top: 2em;
+    }
+    .header-phone-code {
+        font: 400 1.6em Calibri;
+    }
+    .header-phone-number {
+        font: 400 2.5em Calibri;
+    }
+    .header-adress {
+        font: 400 1.5em Calibri;    
+    }
+    h2 {
+        font: 400 6em Calibri;
+        margin-top: 2.5em;
+    }
+    h4 {
+        font: 400 3.4em Calibri;
+        margin: .7em 0 1em;
+    }
+    .header-consultation {
+        font: 400 2em Calibri;
+    }
+    .second .header-services {
+        font: 400 1.7em Calibri;
+        margin-top: 1.5em;
+        margin-bottom: 13em;
+    }
+}
+@media (min-width: 1200px) and (max-width:1440px) {
+    .logo-top {
+        margin: 9.5em 0 0 5%;
+    }
+    .navigation {
+        font: 400 1.4em Calibri;
+        text-align: right;
+    }
+    h2 {
+        font: 400 3em Calibri;
+        margin-top: 2.8em;
+    }
+    h4 {
+        font: 400 2em Calibri;
+        margin: .9em 0 1em;
+    }
+    .header-consultation {
+        font: 400 1.2em Calibri;
+    }
+    .second .header-services {
+        font: 400 1.2em Calibri;
+        margin-top: .5em;
+        margin-bottom: 10em;
+    }
+}
+*/
+@media (min-width: 992px) and (max-width:1199px) {
+    .logo-top {
+        margin: 8em 0 0 5%;
+    }
+    .navigation {
+        font-size: 1.429em;
+    }
+    .header-question {
+        font-size: 1em;
+    }
+    .header-phone-code {
+        font-size: 1em;
+    }
+    .header-phone-number {
+        font-size:  1.5em;
+    }
+    .header-adress {
+        font-size:  .86em;
+    }
+    h2 {
+        font: 400 2.5em Calibri;
+        margin-top: 1.5em;
+    }
+    h4 {
+        font: 400 1.5em Calibri;
+        margin: 0 0 1em;
+    }
+    .header-consultation {
+        font: 400 .8em Calibri;
+    }
+    .second .header-services {
+        font: 400 .8em Calibri;
+        margin-top: .5em;
+        margin-bottom: 8em;
+    }
+}
+@media (min-width: 768px) and (max-width:991px) {
+    .logo-top {
+        margin: 7em 0 0 4%;
+    }
+    .navigation {
+        font-size: 1em;
+    }
+    .header-question {
+        margin-top: 3em;
+        font-size: .75em;
+    }
+    .header-contacts {
+        margin-top: 1.8em;
+    }
+    .header-phone-code {
+        font-size: .7em;
+    }
+    .header-phone-number {
+        font-size: 1.1em;
+    }
+    .header-adress {
+        font-size: .6em;    
+    }
+    h2 {
+        font: 400 1.8em Calibri;
+        margin-top: 1.5em;
+    }
+    h4 {
+        font: 400 1.1em Calibri;
+        margin: 0 0 1em;
+    }
+    .header-consultation {
+        font: 400 .8em Calibri;
+    }
+    .second .header-services {
+        font: 400 .8em Calibri;
+        margin-top: .5em;
+        margin-bottom: 6em;
+    }
+}
+/*
+@media (min-width: 425px) and (max-width: 767px) {
+    .logo-top {
+        margin: 5.5em 0 0 9%;
+        width: 24%;
+        height: 3em;
+    }
+    .navigation {
+        text-align: center;
+        font: 400 .9em Calibri;
+    }
+    .header-contacts,
+    .header-question {
+        text-align: right;
+        margin-right: 1%;
+        margin-top: 1em;
+    }
+    h2 {
+        font: 400 1.7em Calibri;
+        margin-top: .8em;
+    }
+    h4 {
+        font: 400 .9em Calibri;
+        margin: 1em 0 2em;
+    }
+    .header-consultation {
+        font: 400 .8em Calibri;
+    }
+    .second .header-services {
+        font: 400 .8em Calibri;
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+    }
+}
+@media (max-width: 424px) {
+    .logo-top {
+        display: none;
+    }
+    .navigation {
+        font: 400 1.2em Calibri;
+        text-align: left;
+    }
+    .navigation a {
+        display: inline-block;
+        margin: 0 2% .2em;
+    }
+    .header-question {
+        margin-left: 5%;
+    }
+    .header-contacts,
+    .header-question {
+        text-align: left;
+        margin-top: 1em;
+    }
+    h2 {    
+        font: 400 1.3em Calibri;
+        margin-top: 1.5em;
+    }
+    h4 {
+        font: 400 .7em Calibri;
+        margin: 1.8em 0;
+    }
+    .header-consultation {
+        font: 400 .7em Calibri;
+    }
+    .second .header-services {
+        font: 400 .7em Calibri;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+}*/

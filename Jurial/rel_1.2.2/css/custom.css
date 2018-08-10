@@ -1,0 +1,61 @@
+body {
+    color: rgb(255, 255, 255);
+    font: 400 14px Calibri;
+    letter-spacing: 0.025em;
+    text-align: center;
+}
+.header-wrapper {
+    background: url(../img/header_bg.jpg) center top no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.header-wrapper a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.navigation {
+    font-size: 1.429em;
+    list-style-type: none;
+    margin-top: 2em;
+    text-align: right;
+}
+.navigation li {
+    display: inline;
+    padding-right: 3%;
+    white-space: nowrap;
+}
+.navigation :last-child {
+    padding-right: 0;
+}
+.header-question {
+    float: left;
+    font-size: 1.071em;
+    text-align: right;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 3em;
+    margin-left: 10%;
+}
+.header-question a {
+    text-transform: uppercase;
+    border: .1em solid rgb(255, 255, 255);
+    border-radius: .5em;
+    padding: .4em .7em;
+}
+.header-contacts {
+    float: left;
+    text-align: right;
+    padding: 0;
+    letter-spacing: 0.025em;
+    margin-top: 2.5em;
+    margin-left: 5%;
+}
+.header-phone-code {
+    font-size: 1.286em;
+}
+.header-phone-number {
+    font-size:  1.786em;
+}
+.header-adress {
+    font-size:  1.071em;    
+}

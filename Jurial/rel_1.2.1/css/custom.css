@@ -1,146 +1,20 @@
-@charset "utf-8";
 body {
-    color: rgb(255,255,255);
-    font: 400 1.429em Calibri;
-    letter-spacing: 0.025em;
-    text-align: center;
+    color: #ffffff;
+    font: 400 16px Calibri sans-serif;
 }
-.header-wrapper {
-    background: url(../img/header_bg_l.jpg) left top no-repeat;
+.header {
+    background: url(../img/header_bg.jpg) center top no-repeat;
     background-size: cover;
+    height: 500px;
 }
-.header-wrapper a {
-    color: rgb(255,255,255);
-    text-decoration: none;
-}
-.header-content-menu {
-    max-width: 1920px;
-    margin: 0 auto;
-}
-.navigation {
-    font-size: 1.429em;
-    list-style-type: none;
-    margin-top: 2em;
-    text-align: right;
-    white-space: nowrap;
-}
-.navigation li {
-    display: inline;
-    padding-right: 3%;
-    white-space: nowrap;
-}
-.navigation :last-child {
-    padding-right: 0;
-}
-.header-question {
-    float: left;
-    font-size: 1.071em;
-    text-align: right;
-    padding-right: 0;
-    padding-left: 0;
-    margin-top: 3em;
-    margin-left: 10%;
-    white-space: nowrap;
-}
-.header-question a {
-    text-transform: uppercase;
-    border: .1em solid rgb(255,255,255);
-    border-radius: .5em;
-    padding: .4em .7em;
-}
-.header-contacts {
-    float: left;
-    text-align: right;
-    padding: 0;
-    letter-spacing: 0.025em;
-    margin-top: 2.5em;
-    margin-left: 5%;
-    white-space: nowrap;
-}
-.header-phone-code {
-    font-size: 1.286em;
-}
-.header-phone-number {
-    font-size:  1.786em;
-}
-.header-adress {
-    font-size:  1.071em;    
-}
-.header-content-others h2 {
-    font-size: 4.643em;
-    margin-top: 3em;
-}
-.header-content-others h4 {
-    font-size: 2.543em;
-    margin: 1em 0 2em;
-}
-.header-content-others .header-consultation {
-    font-size: 1.643em;
-    padding: .3em .5em;
-    border: .1em solid rgb(255,255,255);
-    border-radius: .3em;
-}
-.header-content-others .header-services {
-    display: inline-block;
-    font-size: 1.429em;
-    margin: 1em 0 15em;
-}
-.content-support {
-    font: 300 1.286em Calibri;
-    color: rgb(102,102,102);
-    letter-spacing: 0.05em;
-    text-align: center;
-    background-color: rgb(242,243,244);
-}
-.content-support .compass {
-    display: inline-block;
-    width: 3em;
-    height: 3em;
-    background: url(../img/compass.png) center center no-repeat;
-    background-size: cover;
-    margin: 0 10px -25px;
-}
-.buisnes-guide {
-    margin-top: 3.8em;
-}
-.content-text {
-    margin: 1.2em 0 2em;
-    font-size: 2em;
-}
-.content-support-image-first,
-.content-support-image-second {
-    background: url(../img/placeholder.jpg) center center no-repeat;
+.logo-top {
+    background: url(../img/Logo.png) right center no-repeat;
     background-size: contain;
-    height: 328px;
-    margin-bottom: 2em;
+    height: 76px;
+    margin-top: 20px;
 }
-.content-support-image h6 {
-    font: 300 1.7em Calibri;
-    text-align: left;
-    margin: 5em 0 .3em 1em;
-    white-space: nowrap;
-}
-.content-support-image p {
-    text-align: left;
-    padding-left: 1.7em;
-}
-.content-support-image a {
-    color: rgb(102,102,102);
-    text-decoration: none;
-    font-size: .9em;
-}
-.all-services {
-    display: inline-block;
-    border: .1em solid rgb(31,37,41);
-    border-radius: .5em;
-    padding: 1em .7em;
-    margin-bottom: 7em;
-}
-@media (max-width: 991px) {
-    .content-support-image h6 {
-        margin: 3em 0 0 4em;
-    }
-    .content-support-image p {
-        padding-left: 6.8em;
+@media (max-width: 767px) {
+  .logo-top {
+    margin-top: 10;
   }
 }
